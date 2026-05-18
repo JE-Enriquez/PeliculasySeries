@@ -1,0 +1,215 @@
+body {
+  background-color: #8e8e8e;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #000e8e;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+}
+header .nav__item--link {
+  color: #fff;
+}
+header {
+  justify-content: center;
+  align-content: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(https://www.shutterstock.com/image-vector/modern-realistic-3d-cinema-banner-260nw-1470102290.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+aside .tittle {
+  color: #fff;
+  align-content: center;
+}
+aside .tittle .tittle__h1 {
+  font-weight: 600;
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+}
+aside .tittle .banner__p {
+  font-size: 24px;
+  color: #fff;
+}
+
+main {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/010/852/520/non_2x/cinema-entertainment-banner-vector.jpg);
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  justify-items: center;
+}
+main .banner {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  font-weight: 600;
+  align-content: center;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+main .banner .banner__p {
+  font-size: 24px;
+  color: #fff;
+}
+main .banner .banner__find {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+main .banner .banner__form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+}
+main .banner .banner__form .banner__input {
+  width: 300px;
+  height: 50px;
+}
+main .banner .banner__form .banner__button {
+  width: 100px;
+  height: 50px;
+}
+main .banner .banner__form .banner__button .buscar {
+  width: 25px;
+  height: 25px;
+}
+main .banner .banner__form .banner__button:hover {
+  opacity: 0.5;
+}
+main .result {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 90%;
+  gap: 20px;
+  padding: 10px;
+}
+main .result .card {
+  flex-direction: column;
+  background-color: #4f5cd5;
+  border-radius: 10px;
+  width: auto;
+}
+main .result .card .card__img {
+  height: auto;
+  border-radius: 10px;
+}
+main .result .card .card__img img {
+  width: 100%;
+}
+main .result .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+main .result .title .title__serie {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+main .result .title .title__episode {
+  font-size: 12px;
+  color: #fff;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  padding: 150px 0;
+}
+main form .div__mail {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  align-content: center;
+  margin: 10px 0;
+}
+main form .div__mail label {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+}
+main form .div__mail div {
+  margin-bottom: 20px;
+  color: #fff;
+}
+main form .div__password {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0;
+  align-items: center;
+}
+main form .div__password label {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+}
+main form .div_check {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+main form .div_check label {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+}
+main form .div__button {
+  width: 150px;
+  height: 40px;
+  background-color: #4f5cd5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+main form .div__button:hover {
+  opacity: 0.5;
+}
+
+footer .footer {
+  background-color: #000e8e;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+}
+footer .footer h3 {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
